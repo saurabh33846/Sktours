@@ -1,0 +1,18 @@
+{
+  "name": "sktours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:scss": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Saurabh Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}
