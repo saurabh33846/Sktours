@@ -1,0 +1,38 @@
+@import '../abstract/variables';
+.feature-box{
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding:2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    transition: transform .3s;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    &__icon{
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        color:transparent;
+    }
+    &__text{
+
+    }
+    &:hover{
+        transform: translateY(-15px) scale(1.03)
+    }
+}
+.section-feature{
+    background-size: cover;
+    // background-clip:  polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    transform:skewY(-7deg);
+    padding:20rem 0;
+    background-image:linear-gradient(to right bottom,
+    rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), 
+    url('../../img/nat-1-large.jpg') ;
+    &>*{
+        transform: skewY(7deg);
+    }
+    margin-top: -10rem;
+
+}
