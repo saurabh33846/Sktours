@@ -12,6 +12,7 @@
         overflow: hidden;
 
         backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
 
         background-color: $color-white;
         font-size: 2rem;
