@@ -11,10 +11,10 @@ https://sktours-ce99a.web.app/
 . Scss
 
 # Speciality
-. Uses of animations.
-. Uses of some advance css properties like Clip-path.
-. Responsive( currenlty work in progress for this ).
-. Does not use flexbox or grid. Everything is made using grids using floats.
-. Uses of SCSS to well define the styles and mantain.
-. Uses BEM (Block Element Modifier ) design pattern.
+- Uses of animations.
+- Uses of some advance css properties like Clip-path.
+- Responsive( currenlty work in progress for this ).
+- Does not use flexbox or grid. Everything is made using grids using floats.
+- Uses of SCSS to well define the styles and mantain.
+- Uses BEM (Block Element Modifier ) design pattern.
 
