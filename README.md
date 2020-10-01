@@ -11,7 +11,7 @@ https://sktours-ce99a.web.app/
 . Scss
 
 # Speciality
-- Uses of animations.
+- Uses of animations. like Rotation of cards in MOST POPULAR TOURS section. Hamburger Navigation Menu etc.
 - Uses of some advance css properties like Clip-path.
 - Responsive( currenlty work in progress for this ).
 - Does not use flexbox or grid. Everything is made using grids using floats.
